@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id = "app-container">
+
+        <div id="heading-container">
+            <h1 id="first-line-text">Generate a <br><span id="second-line-text">random password</span></h1>
+        </div>
+
+        <div id="subheading-container">
+            <p id="subheading">No More Compromised Passwords.</p>
+        </div>
+
+        <div id="generate-container">
+            <button id="generate-password-btn" onclick="renderPasswords()">Generate Passwords</button>
+        </div>
+
+        <hr>
+
+        <div id="password-container">
+            <button class="password-inputs" id="password-one-btn"></button>
+            <button class="password-inputs" id="password-two-btn"></button>
+        </div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
